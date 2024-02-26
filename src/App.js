@@ -3,18 +3,22 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Analytics from "./components/Analytics";
 import Footer from "./components/Footer";
-import Experience from "./components/Experience";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Blog from './components/Blog';
+
+
+// import Experience from "./components/Experience";
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Router>
+      {/* <Router> */}
       <Navbar />
       <Hero />
       <Analytics/>
       <Footer/>
-      </Router>
+      <Blog/>
+      {/* </Router> */}
     </div>
   );
 }
