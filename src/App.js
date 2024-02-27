@@ -18,7 +18,6 @@ function App() {
           <Route path='/Blog' element={<Blog />} />
         </Routes>
       </Router>
-      <Analytics />
       <Footer /> 
     </div>
   );

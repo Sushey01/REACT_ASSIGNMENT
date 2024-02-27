@@ -1,9 +1,11 @@
 import React from 'react';
 import { ReactTyped } from "react-typed";
+import Analytics from './Analytics';
 
 
 const Hero = () => {
   return (
+    <>
     <div className='text-white'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <p className='text-[#00df9a] font-bold p-25 pt-20'>TO REACH THE PEAK</p>
@@ -22,6 +24,8 @@ const Hero = () => {
         <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Download CV</button>
       </div>
     </div>
+    <Analytics />
+    </>
   )
 }
 
