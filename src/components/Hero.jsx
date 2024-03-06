@@ -3,6 +3,7 @@ import { ReactTyped } from "react-typed";
 import Analytics from './Analytics';
 
 
+
 const Hero = () => {
   return (
     <>
