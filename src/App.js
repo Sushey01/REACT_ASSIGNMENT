@@ -5,7 +5,8 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Blog from './components/Blog';
-// import About from './components/About'; 
+import About from './components/About';
+
 
 
 
@@ -17,7 +18,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Hero />} />
           <Route path='/experience' element={<Experience />} />
-          {/* <Route path='/About' element={<About />} /> */}
+          <Route path='/About' element={<About />} />
           <Route path='/Blog' element={<Blog />} />
         </Routes>
       </Router>
